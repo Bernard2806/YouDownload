@@ -23,7 +23,7 @@ echo -e "${red}
 ${reset}"
 
 # Confirmación
-echo -e "${red}Estas por instalar las herramientas necesarias para usar YouDownload en Linux.${reset}"
+echo -e "${red}Estas por instalar las herramientas necesarias para usar YouDownloadMusic en Linux.${reset}"
 read -p "¿Deseas continuar? (s/n): " confirm
 
 if [[ $confirm != [Ss] ]]; then
@@ -43,8 +43,8 @@ echo "Descargando yt-dlp más reciente..."
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
 chmod a+rx /usr/local/bin/yt-dlp
 
-chmod +x YouDownload
+chmod +x YouDownloadMusic
 
 echo -e "${green}✅ Instalación finalizada.${reset}"
-echo -e "${green}Para iniciar la herramienta ejecuta: ./YouDownload${reset}"
+echo -e "${green}Para iniciar la herramienta ejecuta: ./YouDownloadMusic${reset}"
 echo -e "${cyan}${lineas}${reset}"
