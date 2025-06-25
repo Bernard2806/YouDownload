@@ -1,6 +1,6 @@
 # 🎧 YouDownloadMusic
 
-Descarga música de YouTube en formato MP3, con carátulas y en la mejor calidad, directamente desde la terminal de Linux o Android (Termux).
+Descarga música de YouTube en formato MP3, con carátulas y en la mejor calidad, directamente desde la terminal de Linux.
 
 ---
 
